@@ -3,8 +3,8 @@
 Gem::Specification.new do |gem|
   gem.authors       = ["iwazer"]
   gem.email         = ["iwazawa@gmail.com"]
-  gem.description   = %q{Railsのcache_storeとしてMongoDBを利用できるようにします。MongoDBとの接続にはMongoidをドライバーとして使います}
-  gem.summary       = %q{Railsのcache_storeにMongoidからMongoDBを利用できるようにします}
+  gem.description   = %q{This gem makes it possible to use MongoDB as Rails cache_store. Use Mongoid as a driver to connect to MongoDB.}
+  gem.summary       = %q{Make it possible to use MongoDB as Rails cache_store through Mongoid.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
